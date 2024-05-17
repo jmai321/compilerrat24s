@@ -1,0 +1,15 @@
+$
+$
+    integer c,z ;
+$
+
+    c = 100 / 100;
+ 
+    scan(z);
+    while(c < z){
+        print(c);
+        c = c + 1;
+    } 
+    endwhile
+
+$

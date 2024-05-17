@@ -1,0 +1,19 @@
+$
+$
+    [* declarations *]
+    integer i, max, sum, target; 
+$
+    sum = 0;
+    i = 0;
+    scan (max);
+    scan (target);
+    while (i <  max)  {
+        sum = sum + i;
+        i  = i + 1; 
+    }
+    endwhile     
+    if (sum == target){
+        print(sum);
+    }  endif
+
+$
